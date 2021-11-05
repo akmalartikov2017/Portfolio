@@ -1,6 +1,6 @@
 "use strict"
 
-document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>alert("Если иконки сильно смещены в лево,\nто проблема в вашем браузере, Обновите его"),500))
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>alert("Если иконки сильно смещены в лево,\nто проблема в вашем браузере, Обновите его"),1000))
 
 function isPartiallyVisible(el) {
 	let elementBoundary = el.getBoundingClientRect();
