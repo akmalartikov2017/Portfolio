@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My-Portfolio</title>
+	<link rel="shortcut icon" href="icon & img/code.jpg">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/media.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<div class="arrow-up">
+			<a href="#header" >
+				<i class="fa fa-arrow-up"></i>
+			</a>
+		</div>
+		<header>
+			<div class="header" id="header">
+				<img src="icon & img/favicon.ico" alt="Logo" width="100" class="logo">
+
+				<div class="nav">
+					<ul class="navigarion">
+						<a href="#about-me"><li>Обо мне</li></a>
+						<a href="#skills"><li>Skills</li></a>
+						<a href="#portfolio"><li>Портфолио</li></a>
+						<a href="#feedbackForm"><li>Обратная связь</li></a>
+					</ul>
+				</div>
+				<div class="flex-social">
+					<div class="social">
+						<a href="https://www.instagram.com/akmal_artikov_/"><i class="fab fa-instagram"></i></a>
+						<a href="https://teleg.run/Akmalick"><i class="fab fa-telegram "></i></a>
+						<a href="https://wa.me/+992915984414"><i class="fab fa-whatsapp-square"></i></a>
+						<a href="https://skobelkin.ru/viber/992915984414"><i class="fab fa-viber"></i></a>
+					</div>
+				</div>
+				<div class="gamburger">
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+			<div class="me">
+				<p class="hello">Привет!<br>Меня зовут Акмал.<br>Я Junior Front-End разработчик!</p>
+				<img src="icon & img/frontEnd.png" alt="html & css & js">
+			</div>
+			<div class="about-me" id="about-me">
+				<span>Как я уже говорил</span> я  Front-End разработчик, если кто не знае Front-End разработчик это тот кто создает пользовательский интерфейс сайта, то есть взаимодействие с пользователем, интерактив, иконки, текста, кнопки, анимацию, и логику на стороне клиента (на стороне клиента потому что её обрабатывает браузер).<br>
+				<span>Готов взятся за такие сайты как:</span>
+				<ul>
+					<li>Сайт визитка,</li>
+					<li>Лендинг Пейдж,</li>
+					<li> Корпоративный Сайт,</li>
+					<li> Интернет каталог.</li>
+				</ul>
+				<a class="cv" href="CV/Резюме.docx" download="" title="Загрузить резюме">
+					Download CV <i class="fa fa-download"></i>
+				</a>
+			</div>
+			<div class="skills" id="skills">
+				<h1>Скилы</h1>
+				<div class="skillsWrapper">
+					<i class="fab fa-html5"></i>
+					<div class="borderHtml">
+						<div class="Html"></div>
+					</div>
+
+					<i class="fab fa-css3-alt"></i>
+					<div class="borderCss">
+						<div class="Css"></div>
+					</div>
+
+					<i class="fab fa-sass"></i>
+					<div class="borderScss">
+						<div class="Scss"></div>
+					</div>
+
+					<i class="fab fa-js"></i>
+					<div class="borderJs">
+						<div class="Js"></div>
+					</div>
+
+					<i class="fab fa-react"></i>
+					<div class="borderReact">
+						<div class="React"></div>
+					</div>
+
+					<i class="fab fa-git-alt"></i>
+					<div class="borderGit">
+						<div class="Git"></div>
+					</div>
+
+					<i class="fab fa-wordpress"></i>
+					<div class="WordpressBorder">
+						<div class="Wordpress"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<footer>
+			<div class="portfolio" id="portfolio">
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide"><img src="icon & img/landing.png" alt="slide"></div>
+						<div class="swiper-slide"><img src="icon & img/quiz.png" alt="slide"></div>
+						<div class="swiper-slide"><img src="icon & img/quastion.png" alt="slide"></div>
+						<div class="swiper-slide"><img src="icon & img/visitka.png" alt="slide"></div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+					<!-- If we need scrollbar -->
+					<div class="swiper-scrollbar"></div>
+				</div>
+			</div>
+
+			<div class="feedbackForm" id="feedbackForm">
+				<form action="https://formspree.io/f/mjvjzedq" method="post">
+					<h1>Контакты</h1>
+					<input name="Email" placeholder=" Email" type="email" class="email">
+					
+					<input name="Number" placeholder=" Номер телефона с кодом страны" type="number"  class="number">
+
+					<p class="emailInvalid">не верный email</p>
+					<p class="tel">не верный номер телефона</p>
+
+					<input name="description" type="text" maxlength="500" placeholder="  Мне нужен сайт ... " class="description" >
+
+					<input type="submit" class="submit" >
+
+				</form>
+			</div>
+			<div class="footer">
+				<div class="flex-social social msgs">
+					<div class="social">
+						<a href="https://www.instagram.com/akmal_artikov_/"><i class="fab fa-instagram"></i></a>
+						<a href="https://teleg.run/Akmalick"><i class="fab fa-telegram "></i></a>
+						<a href="https://wa.me/+992915984414"><i class="fab fa-whatsapp-square"></i></a>
+						<a href="https://skobelkin.ru/viber/992915984414"><i class="fab fa-viber"></i></a>
+					</div>
+				</div>
+				<p>Developed by Me</p>
+			</div>
+			
+		</footer>
+		
+	</div>
+
+</body>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script  type="text/javascript" src="script/index.js"></script>
+</html>
+
+
+
+
+
+
