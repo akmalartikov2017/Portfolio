@@ -120,25 +120,12 @@
 }
 @media screen and (max-width:529px) {
 	.feedbackForm  {
-		.emailInvalid{
-			position:absolute;
-			top:2945px;
-			left:150px;
-		}
-		.tel{
-			position: absolute;
-			left:130px;
-			top:3000px;
-
-
-
-		}
 		.number{
 			display: block;
 			margin:0 auto ;
 		}
 		.description{
-			margin-top: 25px !important;
+			margin-top: 15px !important;
 		}	
 	}
 	.about-me{
@@ -188,26 +175,20 @@
 		height: 1250px;	
 		
 	}
-	.emailInvalid{
-		top:3080px !important;
-		left:135px !important;
 
-
-	}
-	.tel{
-		left:110px !important;
-		top:3130px !important;
-	}
-	
 }
 
 @media screen and (max-width:425px) {
-	.emailInvalid{
-		top:3080px !important;
-		
-	}
-	.tel{
-		top:3135px !important;
+	.feedbackForm{
+		p{
+			margin-top: 10px;
+		}
+		.email{
+			
+		}
+		.number{
+			margin-top: 10px !important;
+		}
 	}
 }
 @media screen and(max-width: 420px) {
@@ -223,29 +204,13 @@
 		width: 90px;
 		margin:15px !important;
 	}
-	.emailInvalid{
-		top:3255px !important;
-
-	}
-	.tel{
-		left:90px !important;
-		top:3310px !important;
-	}
+	
 }
 @media screen and(max-width: 375px){
 	.header{
 		height:160px !important;
 	}
-	.emailInvalid{
-		top:3345px !important;
-		left:115px !important;
-		
-	}
-	.tel{
-		top:3400px !important;
-		left:80px !important;
-
-	}
+	
 }
 
 @media screen and(max-width:370px) {
@@ -276,16 +241,7 @@
 		
 
 	}
-	.emailInvalid{
-		left:90px !important;
-		top:2905px !important;
-
-
-	}
-	.tel{
-		left:70px !important;
-		top:2960px !important;
-	}
+	
 	.portfolio{
 		height: 280px;
 
@@ -304,16 +260,7 @@
 	.about-me{
 		height: 1150px;	
 	}
-	.emailInvalid{
-		left:90px !important;
-		top:2973px !important;
-
-
-	}
-	.tel{
-		left:70px !important;
-		top:3027px !important;
-	}
+	
 	.social{
 		margin-right: -50px !important;
 
@@ -334,14 +281,6 @@
 	.me{
 		height: 550px !important;
 
-	}
-	.emailInvalid{
-
-		top:2935px !important;
-	}
-	.tel{
-		left:50px !important;
-		top:2990px !important;
 	}
 	
 }
