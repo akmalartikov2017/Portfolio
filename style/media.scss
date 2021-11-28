@@ -201,7 +201,15 @@
 	
 }
 
-
+@media screen and (max-width:425px) {
+	.emailInvalid{
+		top:3075px !important;
+		
+	}
+	.tel{
+		top:3130px !important;
+	}
+}
 @media screen and(max-width: 420px) {
 	.about-me{
 		height: 1410px;	
@@ -218,7 +226,6 @@
 	.emailInvalid{
 		top:3255px !important;
 
-
 	}
 	.tel{
 		left:90px !important;
@@ -228,6 +235,16 @@
 @media screen and(max-width: 375px){
 	.header{
 		height:160px !important;
+	}
+	.emailInvalid{
+		top:3345px !important;
+		left:115px !important;
+		
+	}
+	.tel{
+		top:3400px !important;
+		left:80px !important;
+
 	}
 }
 
@@ -320,11 +337,11 @@
 	}
 	.emailInvalid{
 
-		top:2873px !important;
+		top:2935px !important;
 	}
 	.tel{
 		left:50px !important;
-		top:2930px !important;
+		top:2990px !important;
 	}
 	
 }
