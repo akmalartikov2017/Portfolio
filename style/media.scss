@@ -74,7 +74,7 @@
 		max-width: 550px !important;
 	}
 	.gamburger{
-		display: flex;
+		display: flex !important;
 		justify-content:right;
 
 		i{
@@ -179,12 +179,13 @@
 		p{
 			font-size:23px !important;
 		}
+
 	}
 	.portfolio{
 		height: 380px;
 	}
 	.about-me{
-		height: 1210px;	
+		height: 1250px;	
 		
 	}
 	.emailInvalid{
@@ -203,7 +204,7 @@
 
 @media screen and(max-width: 420px) {
 	.about-me{
-		height: 1380px;	
+		height: 1410px;	
 		
 	}
 	.me{
@@ -222,6 +223,11 @@
 	.tel{
 		left:90px !important;
 		top:3310px !important;
+	}
+}
+@media screen and(max-width: 375px){
+	.header{
+		height:160px !important;
 	}
 }
 
